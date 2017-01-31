@@ -10,7 +10,6 @@ namespace WordCountHistogramAPI
     public class HistogramBuilder
     {
         private readonly WordCounter wordCounter;
-        private DirectoryScanner directoryScanner;
 
         public HistogramBuilder(WordCounter wordCounter)
         {
